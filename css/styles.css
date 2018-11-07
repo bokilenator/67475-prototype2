@@ -1,0 +1,36 @@
+.sidenav-trigger {
+	display: block !important;
+}
+#map {
+	height: calc(100% - (100px + 150px)); 
+	width: 100%;  /* The width is the width of the web page */
+}	
+
+.phone {
+	vertical-align: bottom;
+	padding-right: 8px;
+}
+.collapsible-header .row {
+	margin: 0;
+	width: 100%;
+}
+
+@media only screen and (max-width : 600px) {
+	.buttons {
+		margin-top: 10px;
+	}
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
